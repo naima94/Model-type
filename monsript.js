@@ -47,7 +47,7 @@ var swiper = new Swiper(".discover-container", {
     loop: true,
     spaceBetween: 32,
     coverflowEffect: {
-      rotate: 0,
+      rotate: 25,
       /*stretch: 0,
       depth: 100,
       modifier: 1,
