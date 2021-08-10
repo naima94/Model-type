@@ -8,7 +8,7 @@
     /* ========== Colors ========== */
     /* Change favorite color to match images */
     /*Green dark 190 - Green 171 - Grren Blue 200*/
-    --hue-color: 190;
+    --hue-color: 300;
 
     /*HSL color mode*/
     --frist-color: hsl(var(--hue-color),64%, 22%);
@@ -22,6 +22,7 @@
     --white-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color),12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color),12%, 75%);
+    --footer-color: hsl(var(--hue-color),50%, 85%);
 
     /* ========== Font and typography ========== */
     --body-font: 'Open Sans', sans-serif;
@@ -270,6 +271,7 @@ input {
 /*  Change background header  */
 .scroll-header {
     background-color: var(--body-color);
+    border-bottom: 1px solid var(--footer-color);
     box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, .15);
 }
 
@@ -701,6 +703,13 @@ input {
 }
 
 /* ================== FOOTER================== */
+.footer {
+    width: 100%;
+   /* background-color: var(--footer-color);*/
+    border: 1px solid var(--footer-color);
+    box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, .15);
+}
+
 .footer-container {
     row-gap: 5rem;
 }
